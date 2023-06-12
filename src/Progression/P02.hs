@@ -10,7 +10,6 @@
     - Lists
     - Recursion *or* list combinators (maps, traversals, etc.)
 -}
-
 module Progression.P02 where
 
 -- | It is considered good practice to "alias" types like here for clarity.

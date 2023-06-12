@@ -1,6 +1,6 @@
 module Main where
 
-import Progression.P01 ( greet )
+import Progression.P01 (greet)
 
 {- |
  Main entry point.
