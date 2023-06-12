@@ -1,5 +1,3 @@
-module P01 where
-
 {- |
 - [ ] Modify this file so it prints "Hello, Joe"
 Haskell concepts to lookup:
@@ -19,6 +17,7 @@ Haskell concepts to lookup to do the above:
 Once you have completed all the tasks above, present the `git diff` of the final
 program to your instructor.
 -}
+module Progression.P01 where
 
 main :: IO ()
 main = do
