@@ -1,6 +1,6 @@
 module Main where
 
-import P01 ( greeting )
+import Progression.P01 qualified as P01
 
 {- |
  Main entry point.
@@ -10,4 +10,4 @@ import P01 ( greeting )
 main :: IO ()
 main = do
   -- For withUtf8, see https://serokell.io/blog/haskell-with-utf8
-  P01.greeting
+  P01.main
