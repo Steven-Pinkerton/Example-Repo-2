@@ -22,6 +22,6 @@ module P01 where
 greeting :: IO ()
 greeting = do
   let name :: String = "Joe"
-      greeting :: String = "Hello, "
-      message = undefined
+      greeting' :: String = "Hello, "
+      message = name <> greeting'
   putStrLn message
