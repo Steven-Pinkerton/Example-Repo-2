@@ -11,7 +11,7 @@
 -}
 module Progression.P03 where
 
-import Progession.P02 qualified
+import Progression.P02 qualified as P02
 
 newtype Person = Person {unPerson :: String}
   deriving newtype (Eq)
