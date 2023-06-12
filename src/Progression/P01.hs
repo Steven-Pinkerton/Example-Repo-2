@@ -23,5 +23,5 @@ greet :: IO ()
 greet = do
   let name :: String = "Joe"
       greeting' :: String = "Hello, "
-      message = name <> greeting'
+      message = greeting' <> name
   putStrLn message
