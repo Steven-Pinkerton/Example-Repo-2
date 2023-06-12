@@ -1,6 +1,6 @@
 module Main where
 
-import P01 qualified
+import P01 ( greeting )
 
 {- |
  Main entry point.
