@@ -1,6 +1,5 @@
 module Main where
 
-import Main.Utf8 qualified as Utf8
 import P01 ( greeting )
 
 {- |
