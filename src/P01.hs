@@ -17,10 +17,10 @@ Haskell concepts to lookup to do the above:
 Once you have completed all the tasks above, present the `git diff` of the final
 program to your instructor.
 -}
-module Progression.P01 where
+module P01 where
 
-main :: IO ()
-main = do
+greeting :: IO ()
+greeting = do
   let name :: String = "Joe"
       greeting :: String = "Hello, "
       message = undefined
