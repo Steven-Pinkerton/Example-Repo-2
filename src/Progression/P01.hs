@@ -19,9 +19,9 @@ program to your instructor.
 -}
 module Progression.P01 where
 
-main :: IO ()
-main = do
-  let name :: String = "Joe"
+test1 :: IO ()
+test1 = do
+  let name :: String = "Daamaaa"
       greeting :: String = "Hello, "
       message = undefined
   putStrLn message
