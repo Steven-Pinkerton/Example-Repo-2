@@ -16,9 +16,11 @@ module Progression.P02 where
 newtype Person = Person {unPerson :: String}
   deriving stock (Eq)
 
+
 -- | Make a greeting message to greet the given person
 mkGreeting :: Person -> String
 mkGreeting name = "Hello, " <> unPerson name
+
 
 -- | Print out a message greeting the given person
 greetPerson :: Person -> IO ()

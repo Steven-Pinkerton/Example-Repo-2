@@ -19,9 +19,17 @@ program to your instructor.
 -}
 module Progression.P01 where
 
+
+
+
 greet :: IO ()
 greet = do
   let name :: String = "Joe"
       greeting' :: String = "Hello, "
       message = greeting' <> name
   putStrLn message
+
+name :: IO ()
+name = do
+  putStrLn ("Hello" <> "World")
+
